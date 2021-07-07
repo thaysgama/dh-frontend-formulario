@@ -53,7 +53,7 @@ button {
 
 .clear{
     color: rgb(114, 114, 114);
-    transition-property: background, color;
+    transition-property: background, color, transform;
 	transition-duration: 0.5s;
 }
 
@@ -61,7 +61,7 @@ button {
     background-color:dodgerblue;
     color: white;
     font-weight: bold;
-    transition-property: background;
+    transition-property: background, transform;
 	transition-duration: 0.5s;
 }
 
@@ -69,6 +69,7 @@ button {
 .clear:hover {
     background-color:rgb(25, 117, 209);
     color: white;
+    transform: scale(1.1);
 }
 
 .submit:active,
