@@ -1,0 +1,86 @@
+*{
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+
+
+fieldset {
+    padding: 0;
+    border-radius: 8px;
+    width: 300px;
+    box-sizing: border-box;
+    border-color: rgb(219, 219, 219);
+    border-style:solid;
+    margin-top: 50px;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+
+ .field, .button {
+    margin: 5%;    
+}
+
+input{
+    width: 97%;
+    height: 26px;
+    margin: 8px 0px;
+    border-style:solid;
+    border-width: 2px;
+    border-radius: 3px;
+    border-color: rgb(182, 182, 182);
+    transition-property: border-color, border-width;
+	transition-duration: .3s;
+    transition-delay: .2s;
+}
+
+button {
+    border-width: 0;
+    border-style: none;
+    border-radius: 40px;
+    width: 40%;
+    height: 40px;
+    /* top - margin-right - bottom - margin-left*/
+    margin: 5px 0px 5px 6.6%;
+    
+}
+
+.button {
+    box-sizing: border-box;
+    text-align:justify;
+    
+}
+
+.clear{
+    color: rgb(114, 114, 114);
+    transition-property: background, color;
+	transition-duration: 0.5s;
+}
+
+.submit{
+    background-color:dodgerblue;
+    color: white;
+    font-weight: bold;
+    transition-property: background;
+	transition-duration: 0.5s;
+}
+
+.submit:hover,
+.clear:hover {
+    background-color:rgb(25, 117, 209);
+    color: white;
+}
+
+.submit:active,
+.clear:active {
+    background-color:rgb(20, 94, 168);
+    color: white;
+}
+
+input:focus{
+    outline: none;
+    border-color: rgb(71, 163, 255);
+    border-width: 3px;
+}
+
+
